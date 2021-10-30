@@ -4,3 +4,5 @@
 *.xml
 educational/composer.lock
 educational/package-lock.json
+*.lock
+*.json
