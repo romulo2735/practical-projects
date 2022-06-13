@@ -1,4 +1,8 @@
-### This repository are made to show some personal projects, using php/laravel, node.js, react.js, vue.js and anothers.
+### This repository are made to show some personal projects using: 
+ - PHP/Laravel
+ - Node.js
+ - React.js
+ - Vue.js
 
 #### PHP
 
