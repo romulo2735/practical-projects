@@ -1,5 +1,11 @@
 version: "2"
 services:
+  mongo:
+    image: mongo
+    volumes:
+      - /data/mongodb/db:/data/db
+    ports:
+      - "27017:27017"
   node:
     image: "node:16.15.1"
     user: "node"
