@@ -1,6 +1,6 @@
 let express = require('express');
 let router = express.Router();
-let User = require('../src/Models/User');
+let UserModel = require('../src/Models/User');
 
 /* GET users listing. */
 router.get('/', function (req, res, next) {
@@ -30,7 +30,7 @@ router.post('/register', function (req, res, next) {
     });
   }
 
-  User.create(dataUser, callback);
+  UserModel.create(dataUser, callback);
 
 });
 
